@@ -126,7 +126,7 @@
         android:text="Bearing" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/okButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -134,12 +134,12 @@
         android:text="@android:string/ok" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/cancelButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_alignBaseline="@+id/okButton"
+        android:layout_alignBottom="@+id/okButton"
+        android:layout_toLeftOf="@+id/okButton"
         android:text="@android:string/cancel" />
 
 </RelativeLayout>
