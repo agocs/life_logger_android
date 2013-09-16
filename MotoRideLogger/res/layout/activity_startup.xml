@@ -131,7 +131,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="@android:string/ok" />
+        android:text="@android:string/ok" 
+        android:onClick="startLogger"/>
 
     <Button
         android:id="@+id/cancelButton"

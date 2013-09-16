@@ -3,6 +3,7 @@ package com.agocs.motoridelogger;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 
 public class StartupActivity extends Activity {
 
@@ -20,4 +21,8 @@ public class StartupActivity extends Activity {
         return true;
     }
     
+    
+    public void startLogger(View view) {
+    	
+    }
 }
