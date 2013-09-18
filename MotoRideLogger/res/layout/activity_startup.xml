@@ -43,7 +43,7 @@
         android:text="Ride Name" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/rideName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView3"
@@ -58,13 +58,13 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/rideName"
+        android:layout_below="@+id/rideName"
         android:layout_marginTop="16dp"
         android:text="Update Frequency" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/updateFreq"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView4"
@@ -79,8 +79,8 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText2"
-        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignBaseline="@+id/updateFreq"
+        android:layout_alignBottom="@+id/updateFreq"
         android:layout_toRightOf="@+id/textView2"
         android:text="time(s) per hour" />
 
@@ -88,8 +88,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/updateFreq"
+        android:layout_below="@+id/updateFreq"
         android:layout_marginTop="25dp"
         android:text="Update to include:" />
 
