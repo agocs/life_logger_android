@@ -44,13 +44,13 @@ public class StartupActivity extends Activity {
     	startActivity(intent);
     }
     
-    public String LOGGERONOFF = "LOGGERONOFF";
-    public String RIDENAME = "RIDENAME";
-    public String UPDATEFREQ = "UPDATEFREQ";
-    public String PHOTOCHECKBOX = "PHOTOCHECKBOX";
-    public String SPEEDCHECKBOX = "SPEEDCHECKBOX";
-    public String BEARINGCHECKBOX = "BEARINGCHECKBOX";
-    public String LOCATIONCHECKBOX = "LOCATIONCHECKBOX";
+    public static String LOGGERONOFF = "LOGGERONOFF";
+    public static String RIDENAME = "RIDENAME";
+    public static String UPDATEFREQ = "UPDATEFREQ";
+    public static String PHOTOCHECKBOX = "PHOTOCHECKBOX";
+    public static String SPEEDCHECKBOX = "SPEEDCHECKBOX";
+    public static String BEARINGCHECKBOX = "BEARINGCHECKBOX";
+    public static String LOCATIONCHECKBOX = "LOCATIONCHECKBOX";
     
     
     

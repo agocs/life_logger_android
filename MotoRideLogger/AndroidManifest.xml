@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.agocs.motoridelogger.DisplayStatus"
+            android:label="@string/title_activity_display_status"
+            android:parentActivityName="android.app.LauncherActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.LauncherActivity" />
+        </activity>
     </application>
 
 </manifest>

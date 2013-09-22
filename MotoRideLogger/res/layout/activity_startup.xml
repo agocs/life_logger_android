@@ -9,17 +9,17 @@
     tools:context=".StartupActivity" >
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/locationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/log_your_ride" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/rideNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/locationLabel"
+        android:layout_below="@+id/locationLabel"
         android:layout_marginTop="18dp"
         android:text="Ride Logger:" />
 
@@ -27,8 +27,8 @@
         android:id="@+id/RideLoggerOnOff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView1"
-        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignBaseline="@+id/rideNameTextView"
+        android:layout_alignBottom="@+id/rideNameTextView"
         android:layout_alignParentRight="true"
         android:layout_marginRight="52dp"
         android:text="ToggleButton" />
@@ -37,7 +37,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignLeft="@+id/rideNameTextView"
         android:layout_below="@+id/RideLoggerOnOff"
         android:layout_marginTop="15dp"
         android:text="Ride Name" />
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/updateFreq"
         android:layout_alignBottom="@+id/updateFreq"
-        android:layout_toRightOf="@+id/textView2"
+        android:layout_toRightOf="@+id/locationLabel"
         android:text="time(s) per hour" />
 
     <TextView
